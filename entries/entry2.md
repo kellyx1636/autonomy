@@ -14,15 +14,29 @@ The first three circles/parts for this topic only gave me some information direc
 * 2nd circle: URLs are usually used in web servers to specify template files and assests in a file system. If you compare how you got to access a specific file and its URL structure, you can see that they show the same thing.  
 * 3rd circle: If your server is not wired well and fails to keep certain files away from the public's view, that could be another way for hackers to obtain your files. 
 
-After learning about these facts, I am presented with a simulation. 
+After learning about these facts, I am presented with a simulation. I was told to pretend that I have a website that holds menus from restaurants that users can find and download. Then, I was presented with the following URL: foodle.com/menus?menu=arachnaburger.pdf 
 
-#### How to prevent this from happening? 
-*
+**Break Down of This URL:** 
+* **foodle.com** --> Website's homepage URL 
+* **menu** --> Parameter value  
+* **/menus** --> Goes into the website's storage of menus  
+* **arachnaburger.pdf** --> What the user requested the website's server to find 
+
+In this case, when a raw file name is used when user is downloading. With that, a hacker/attacker can use it to go to the files' directory and access another file. Some servers do no check on the file paths that are given, which leads to the hacker given the ability to access other sensitive files. 
+
+### My Interaction With The Simulation 
+For those who are following my entry while using the link I provided, this section my entry is where I am in circle 9. 
+
+I was presented with this URL: "foodle.com/menus?menu=../../../../". Then, I was told to enter ssl/private.key at the end of it. Once I did that, I realized that I just downloaded something that was not suppose to be shared to the public (remember, this is a simulation). 
+
+At the end of these circles, I am shown a resource. This resource scans websites to see if there are any vulnerabilities. If you would like to check it out, head onto this link: [Netsparker](https://www.netsparker.com/netsparker-web-application-security-scanner/dead-accurate-automated-web-vulnerability-scanner/?utm_source=hacksplaining.com&&utm_content=is+website+vulnerable+lesson&utm_medium=banner&utm_campaign=nc+advert)   
 
 #### Takeaways 
-* 
+* There are two types of websites: accessible by browser and ones that are not accessible by browsers. 
+* URL is like a file path. Since it can show where it came from, user would need to be careful with what the URL gives other users access to. 
+* Structure of a URL: websitename.com/folder-name?parameter=user-request 
 
 #### Next Step(s)
-Since there are 25 topics  
+Since there are 25 topics to cover in this website (presented in 5 by 5), I will try to learn about the next 4 topics this week. While doing so, I will also try to review every now and then so that I do not forget what I learned before.  
 
 
