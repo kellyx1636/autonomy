@@ -34,7 +34,7 @@ At the end of these circles, I am shown a resource. This resource scans websites
 #### Takeaways 
 * There are two types of websites: accessible by browser and ones that are not accessible by browsers. 
 * URL is like a file path. Since it can show where it came from, user would need to be careful with what the URL gives other users access to. 
-* Structure of a URL: websitename.com/folder-name?parameter=user-request 
+* Structure of a URL: ```websitename.com/folder-name?parameter=user-request``` 
 
 #### Next Step(s)
 Since there are 25 topics to cover in this website (presented in 5 by 5), I will try to learn about the next 4 topics this week. While doing so, I will also try to review every now and then so that I do not forget what I learned before.  
