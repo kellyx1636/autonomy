@@ -5,7 +5,7 @@ Hello there! My name is Kelly and I am a high school senior. At this point of my
 ## Table of Contents   
 * [Entry 1: Introduction](entries/entry1.md)   
 * [Entry 2: Continuing Learning](entries/entry2.md) 
-* [Entry 3: ...](entries/entry3.md)
+* [Entry 3: Learning About File Upload Vulnerabilities ](entries/entry3.md)
 * [Entry 4: Cross-site Scripting and A Realization](entries/entry4.md)
 
 #### Stay tuned for more!  
