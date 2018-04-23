@@ -1,4 +1,4 @@
-# Entry 3: .... 
+# Entry 3: Learning About File Upload Vulnerabilities 
 
 ##### Some Side Notes: 
 If you would like to follow along with what you will read in my entry, click on this link: [Hacksplaining:File Upload Vulnerabilities](https://www.hacksplaining.com/exercises/file-upload). 
@@ -15,9 +15,12 @@ Uploading files is another part where the programmer has to be careful because i
 Well, the attackers would use this method of inputting malicious scripts onto a server. Once the attackers are able to run the code with the malicious script, the entire system could be manipulated.  
 
 #### Demonstration From Website 
-**Circles 4 - 14**
+**Circles 4 - 7**
 
 In this example, Mal (hacker) signed up for a website that uses a well-known content management system. It looks like Facebook to me, but it could be a coincidence. Anyways, Mal notices that the user can upload a profile image. When you look at the profile image's URL, you can look at its file name. After that, its file type can be seen with JavaScript. 
+
+** Circles 8 - ** 
+Once I reached this point of the demonstration, I was confused because I did not know what PHP was. For now, I did not look it up and tried to go on with the demonstration to see if I can still understand the results of the demonstration. 
 
 ### Takeaways 
 I think that sometimes, even tutorials are not perfect in terms of demostrating something to the viewer/user. It is up to the viewer/user to figure out what the author is trying to say. For instance, if you are following the demonstration exactly as it is and it does not work, try other ways that you think might work.  
