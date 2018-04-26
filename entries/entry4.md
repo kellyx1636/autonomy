@@ -73,18 +73,18 @@ The level of damage can vary depending on the sensitivity that your data has.
     * “coming from a data store” → that is connected to your 
 * Escape all dynamic content by replacing significant characters with HTML ones 
 
-Significant Characters | HTML “Characters”
------------------------|------------------------
-          “            |       &#34
-      Octothorp(#)     |       &#35
-          &            |       &#38
-          ‘            |       &#39
-          (            |       &#40
-          )            |       &#41
-          /            |       &#47
-          ;            |       &#59
-          <            |       &#60
-      Greater sign (>) |       &#62
+| Significant Characters |  HTML “Characters”  |
+|------------------------|---------------------|
+|          “             |       &#34          | 
+|      Octothorp(#)      |       &#35          | 
+|          &             |       &#38          | 
+|          ‘             |       &#39          | 
+|          (             |       &#40          | 
+|          )             |       &#41          | 
+|          /             |       &#47          | 
+|          ;             |       &#59          | 
+|          <             |       &#60          | 
+|      Greater sign (>)  |       &#62          | 
 
 * “Most modern framework will escape dynamic content by default” 
 * Escaping editable content → make the browser never look at the code as executable → closes the chances of XSS attacks  
