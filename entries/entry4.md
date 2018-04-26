@@ -4,8 +4,9 @@ For this week, I have moved on onto another topic, which is called Cross-site Sc
 ##### Some Side Notes: 
 If you would like to follow along with what you will read in my entry, click on this link: [Hacksplaining: Cross-site Scripting](https://www.hacksplaining.com/exercises/xss-stored). 
 
-When you click on the link, you will notice that there are circles on the top-left corner. Those circles are like the steps or slides of a presentation. You can click on them to go back and forward. 
-![circles](../images/week4/cross-ss-circles.PNG)  
+When you click on the link, you will notice that there are circles on the top-left corner. Those circles are like the steps or slides of a presentation. You can click on them to go back and forward.  
+
+![circles](../images/cross-site-scripting/circles.png)  
 
 ## Cross-site Scripting 
 What is this? Cross-site scripting is method a method that allows users to add to a site’s content, which can possibly lead to injection of malicious JavaScript.  
