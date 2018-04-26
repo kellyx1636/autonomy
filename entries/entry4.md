@@ -74,7 +74,7 @@ The level of damage can vary depending on the sensitivity that your data has.
 * Escape all dynamic content by replacing significant characters with HTML ones 
 
 | Significant Characters |  HTML “Characters”  |
-|------------------------|---------------------|
+|        :---:           |      :---:          |
 |          “             |       &#34          | 
 |      Octothorp(#)      |       &#35          | 
 |          &             |       &#38          | 
