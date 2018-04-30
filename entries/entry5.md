@@ -24,5 +24,6 @@ Once again, hacker Mal found a way to destroy my site by seeing that it depends 
 My play-pretend user, Vic, his email was able to be found out by Mal. Mal then emails Vic a link that grabs Vic's attention, making Vic actually click on it. Once the link is clicked, Vic gets a notification saying that he posted something, which spreads the link that Mal sent to Vic's followers. This leads to an effect called, [worms](https://www.hacksplaining.com/glossary/worms). When one user clicks on Vic's link (while it is really Mal's link), it posts the link on that other user's timeline, which exposes the link to another set of users.  
 
 **_Circle 13_** 
+
 To see if your site is possibly vulnerable to cross-site request forgery, you can look at this site that Hacksplaining suggested: [Netsparker Web Application Security Scanner](https://www.hacksplaining.com/exercises/csrf#/finish)  
 
