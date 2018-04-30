@@ -7,5 +7,6 @@ Hello there! My name is Kelly and I am a high school senior. At this point of my
 * [Entry 2: Continuing Learning](entries/entry2.md) 
 * [Entry 3: Learning About File Upload Vulnerabilities ](entries/entry3.md)
 * [Entry 4: Cross-site Scripting and A Realization](entries/entry4.md)
+* [Entry 5: Learning Cross-site Request Forgery and Needing To Focus Even More](entries/entry5.md)
 
 #### Stay tuned for more!  
