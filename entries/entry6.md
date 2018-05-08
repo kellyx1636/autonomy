@@ -11,8 +11,8 @@ When you click on the link, you will notice that there are circles on the top-le
 ## Connection 
 **_(circles 1+2)_**
 
-This topic is connected to cross-site scripting, which gives attackers a way to use malicious JavaScript in programmer’s database. By doing so, the code is executed when user goes to site  
-Another method of attackers using XSS to use malicious JavaScript → Reflected XSS attack  
+* This topic is connected to cross-site scripting, which gives attackers a way to use malicious JavaScript in programmer’s database. By doing so, the code is executed when user goes to site  
+* Another method of attackers using XSS to use malicious JavaScript is called Reflected XSS attack.   
 
 ## How It Happens 
 **_(circle 3)_**
