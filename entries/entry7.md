@@ -20,9 +20,17 @@ After deciding to work together, I asked him where we should put our project. To
 ##### Starting Our Website 
 It is established that we want our project to be in a website, okay, good. Next, we thought that should make a navigation bar (navbar) for our website. Ricardo started making the navbar through the usage of this website: [React-Bootstrap](https://react-bootstrap.github.io/components/navbar/). He tries making the second one shown in the reference website, which worked, but we wanted it to scroll to the section in which the user clicked. In other words, if a user clicked "Simulation" in the navbar, I want our website to scroll to that section. 
 
-His attempts to make this idea come true did not work. However, I remembered that we did a class assignment with that feature before, it was the Earth website. I found it in my Cloud9 workspace and showed it to him. A thing that I learned from being his partner is that ReactJS is not exactly the same as JavaScript. 
+His attempts to make this idea come true did not work. However, I remembered that we did a class assignment with that feature before, it was the Earth website. I found it in my Cloud9 workspace and showed it to him. A thing that I learned from being his partner is that ReactJS is not exactly the same as JavaScript. Therefore, one may need to have a second look at the code.  
+
+I remembered that one of my classmates, Cheyenne has been through this kind of obstacle before. In [Cheyenne's 6th entry](https://github.com/cheyennen0503/sass/blob/master/entries/entry06.md), she mentioned how she has made the mistake of spending a whole day on the navbar. By remembering my peer's mistake, I tried helping my partner by finding other templates that might be "easier". While Ricardo was doing the website's design and interaction parts, I was typing the website's content in a Google Doc to save time. In the document, I structure it so that all Ricardo has to do is copy and paste the texts that I typed. I have even made a visual for him to see.  
+
+![MVP-Sneak-Peek](../images/mvp/MVP-Sneak-Peek.png) 
 
 ## Takeaways 
-
+* **When time is running out, there is no time to be too indecisive.** 
+    * This happened to me when I was deciding whether or not I should work with a partner. To be honest, I was indecisive for a bit because I was concerned about the other person, about whether I might be holding him back. Again, while knowing that time is running out, I have decided to just email him and ask. If he declines my offer, then it is okay. While I am waiting for his reply, I would start planning my MVP and so on. 
+* **Do something else, while the problem is not solved yet.** 
+    * I think that it is common for a person to be stuck in one, multiple, or even all of the sections of their projects. It depends on the person whether or not to stay in one section/task. However, the person would need to prioritize the tasks/sections, especially when time is running out. The key is to communication with yourself and your partner(s) (if you applicable). 
 
 ## Next Steps
+While my partner is setting up the website, all I can do for now is ask every now and then if he needs help through the website, Slack. That is because the code for our MVP is in his computer and I am not familiar with ReactJS.   
