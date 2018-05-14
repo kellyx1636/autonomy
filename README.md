@@ -8,6 +8,7 @@ Hello there! My name is Kelly and I am a high school senior. At this point of my
 * [Entry 3: Learning About File Upload Vulnerabilities ](entries/entry3.md)
 * [Entry 4: Cross-site Scripting and A Realization](entries/entry4.md)
 * [Entry 5: Learning Cross-site Request Forgery and Needing To Focus Even More](entries/entry5.md)
-* [Entry 6: Another Part of XSS and Needing To Speed Things up](entries/entry6.md)
+* [Entry 6: Another Part of XSS and Needing To Speed Things up](entries/entry6.md) 
+* [Entry 7: Making a MVP](entries/entry7.md) 
 
 #### Stay tuned for more!  
